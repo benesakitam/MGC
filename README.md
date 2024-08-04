@@ -1,4 +1,8 @@
-## [MGC: MLP-Guided CNN Pre-Training using A Small-scale Dataset for Remote Sensing Images](https://ieeexplore.ieee.org/document/10553237)
+## Pytorch implementation of [MGC](https://ieeexplore.ieee.org/document/10553237)
+
+![image](https://github.com/benesakitam/MGC/blob/main/figs/pipeline.png)
+
+![image](https://github.com/benesakitam/MGC/blob/main/figs/vis.jpg)
 
 ## Requirements
 
@@ -121,3 +125,15 @@ python tools/convert_model.py --input results/train_new_log/mgc-b/800_ckpt.pth.t
 For other downstream tasks including Rotated Object Detection, Semantic Segmentation, and Change Detection. Please refer (https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing).
 
 Replace the pre-trained model path in the config files of each downstream tasks with the path of our converted MGC models.
+
+## Citation
+Please cite this paper if it helps your research:
+```
+@article{li2024mgc,
+  title={MGC: MLP-Guided CNN Pre-Training using A Small-scale Dataset for Remote Sensing Images},
+  author={Li, Zhihao and Hou, Biao and Li, Wanqing and Wu, Zitong and Ren, Bo and Jiao, Licheng},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2024},
+  publisher={IEEE}
+}
+```
