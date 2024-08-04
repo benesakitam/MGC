@@ -1,3 +1,5 @@
+## [MGC: MLP-Guided CNN Pre-Training using A Small-scale Dataset for Remote Sensing Images](https://ieeexplore.ieee.org/document/10553237)
+
 ## Requirements
 
 To install requirements:
