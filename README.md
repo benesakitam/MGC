@@ -2,8 +2,6 @@
 
 ![image](https://github.com/benesakitam/MGC/blob/main/figs/pipeline.png)
 
-![image](https://github.com/benesakitam/MGC/blob/main/figs/vis.jpg)
-
 ## Requirements
 
 To install requirements:
@@ -125,6 +123,10 @@ python tools/convert_model.py --input results/train_new_log/mgc-b/800_ckpt.pth.t
 For other downstream tasks including Rotated Object Detection, Semantic Segmentation, and Change Detection. Please refer (https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing).
 
 Replace the pre-trained model path in the config files of each downstream tasks with the path of our converted MGC models.
+
+## Visualization
+
+![image](https://github.com/benesakitam/MGC/blob/main/figs/vis.jpg)
 
 ## Citation
 Please cite this paper if it helps your research:
